@@ -171,6 +171,7 @@
 // console.log(animals);
 
 // let fruits = ["Apple","Banana","carrot","Mango"];
+// fruits.pop()
 // console.log(fruits);
 
 // let copyFruits = fruits.slice(0,3);
