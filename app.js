@@ -147,4 +147,37 @@
 
 // console.log(developers);
 
-console.log("Jerry");
+//console.log("Jerry");
+// const arr = [];
+
+// arr[0] = "Saeed Ali";
+// arr[1] = "Jerry"
+// console.log(arr);
+// arr.pop()
+// console.log(arr);
+
+
+// let animals = ["dog","cat","bird","lizard","lion"];
+// console.log(animals);
+// animals.pop()
+// console.log(animals);
+// animals.push("snake","lion","tiger");
+// console.log(animals);
+// animals.shift()
+// console.log(animals);
+// animals.unshift("Parrot")
+// console.log(animals);
+// animals.splice(3,0,"parrot","Billi");
+// console.log(animals);
+
+// let fruits = ["Apple","Banana","carrot","Mango"];
+// console.log(fruits);
+
+// let copyFruits = fruits.slice(0,3);
+// copyFruits.splice(0,0,"Rose Milk")
+// console.log("Copy wala array",copyFruits);
+
+
+
+
+  
