@@ -178,7 +178,13 @@
 // copyFruits.splice(0,0,"Rose Milk")
 // console.log("Copy wala array",copyFruits);
 
+let userInput = prompt("Please enter Your Lucky Number!");
+parseInt(userInput);
 
-
+if (userInput % 2 == 0  ) { 
+    alert("You Entered Even Number" + " " + userInput)
+}else{
+    alert("You Entered Even Odd" + " " + userInput)
+}
 
   
