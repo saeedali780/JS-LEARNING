@@ -178,13 +178,25 @@
 // copyFruits.splice(0,0,"Rose Milk")
 // console.log("Copy wala array",copyFruits);
 
-let userInput = prompt("Please enter Your Lucky Number!");
-parseInt(userInput);
+// let userInput = prompt("Please enter Your Lucky Number!");
+// parseInt(userInput);
 
-if (userInput % 2 == 0  ) { 
-    alert("You Entered Even Number" + " " + userInput)
-}else{
-    alert("You Entered Even Odd" + " " + userInput)
-}
+// if (userInput % 2 == 0  ) { 
+//     alert("You Entered Even Number" + " " + userInput)
+// }else{
+//     alert("You Entered Even Odd" + " " + userInput)
+// }
 
+//for loop if we want to repeat the certain statements
   
+// let device = "Laptop";
+
+// for(let i = 1; i<=100;i++){
+//     console.log(device);
+//     console.log("mouse");
+// }
+// 1 for(var i = 0; i <= 4; i++) {
+//      if (cityToCheck === cleanestCities[i]) {
+//      alert("It's one of the cleanest cities");
+//     }
+//      }
