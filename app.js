@@ -200,3 +200,10 @@
 //      alert("It's one of the cleanest cities");
 //     }
 //      }
+
+// loops //for
+
+for(let i = 1; i<=10; i++){
+    console.log("Saeed");
+}
+
