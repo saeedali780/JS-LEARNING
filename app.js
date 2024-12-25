@@ -203,7 +203,29 @@
 
 // loops //for
 
-for(let i = 1; i<=10; i++){
-    console.log("Saeed");
-}
 
+
+// for(let i = 1; i<=10; i++){
+//     console.log("Saeed");
+// }
+
+// let data = [10,20,30,40,50];
+
+
+// for(let i = 0; i < data.length; i++){
+//     console.log(data[i]);
+// }
+var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"];
+var cityToCheck = "Tucson"
+var matchFound = false;
+for (var i = 0; i <= 4; i++){
+ if (cityToCheck === cleanestCities[i]) {
+ matchFound = true;
+ console.warn("It's one of the cleanest cities");
+
+ }
+ }
+
+ if (matchFound === false) {
+    console.warn("It's not on the list");
+ }
