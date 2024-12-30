@@ -215,17 +215,26 @@
 // for(let i = 0; i < data.length; i++){
 //     console.log(data[i]);
 // }
-var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"];
-var cityToCheck = "Tucson"
-var matchFound = false;
-for (var i = 0; i <= 4; i++){
- if (cityToCheck === cleanestCities[i]) {
- matchFound = true;
- console.warn("It's one of the cleanest cities");
+// var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"];
+// var cityToCheck = "Tucson"
+// var matchFound = false;
+// for (var i = 0; i <= 4; i++){
+//  if (cityToCheck === cleanestCities[i]) {
+//  matchFound = true;
+//  console.warn("It's one of the cleanest cities");
+// break
+//  }
+//  }
 
- }
- }
+//  if (matchFound === false) {
+//     console.warn("It's not on the list");
+//  }
 
- if (matchFound === false) {
-    console.warn("It's not on the list");
+var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
+var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
+var fullNames = [];
+ for (var i = 0; i < firstNames.length; i++) {
+ for (var j = 0; j < lastNames.length; j++) {
+ fullNames.push(firstNames[i] + lastNames[j]);
  }
+}
